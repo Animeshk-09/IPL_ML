@@ -60,24 +60,24 @@ Modeling - sklearn (model_selection, linear_model, tree, ensemble, neural_networ
 ### To determine the best model
 1. 5 different classifiers were used
 
--Logistic Regression
+- Logistic Regression
 
--Decision Tree
+- Decision Tree
 
--AdaBoost
+- AdaBoost
 
--RandomForest
+- RandomForest
 
--MultiLayerPerceptron
+- MultiLayerPerceptron
 
 2. These models were put through a Pipeline with the following steps:
 
--Simple Imputer to impute values to NaN
+- Simple Imputer to impute values to NaN
 
--Standard Scaler to scale the values
+- Standard Scaler to scale the values
 
--PCA to reduce the variables to principal components that explain over 99%
+- PCA to reduce the variables to principal components that explain over 99%
 
--Classifier was then grid searched to get the right model hyper parameters
+- Classifier was then grid searched to get the right model hyper parameters
 
 3. The models were then saved as pickle files
