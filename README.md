@@ -16,8 +16,6 @@ Data Processing - pandas, numpy, datetime, joblib, timeit
 
 Data Visualization - matplotlib.pyplot, seaborn
 
-Folder Operations - pathlib
-
 Modeling - sklearn (model_selection, linear_model, tree, ensemble, neural_network, pipeline, preprocessing, impute, metrics, decomposition)
 
 ## Creating some of the features for analyzing:
