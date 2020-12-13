@@ -76,6 +76,5 @@ Modeling - sklearn (model_selection, linear_model, tree, ensemble, neural_networ
 
 - PCA to reduce the variables to principal components that explain over 99%
 
-- Classifier was then grid searched to get the right model hyper parameters
+- Classifier was then grid searched to get the right model hyper parameters. 
 
-3. The models were then saved as pickle files
